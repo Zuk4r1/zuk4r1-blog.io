@@ -1,0 +1,37 @@
+# robots.txt — generado para el proyecto
+# Fecha: 2025-10-31
+# Nota: robots.txt son directivas para crawlers que respetan la norma;
+# no reemplaza medidas de seguridad del servidor (configuración, .htaccess, reglas del servidor, permisos, etc.).
+
+User-agent: *
+
+# Bloquear archivos y directorios que podrían comprometer la web
+Disallow: /.git/
+Disallow: /.env
+Disallow: /*.env$
+Disallow: /config/
+Disallow: /config.php
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /backup/
+Disallow: /backups/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /node_modules/
+Disallow: /vendor/
+Disallow: /cgi-bin/
+Disallow: /server-status
+
+# Evitar indexación de dumps, logs y archivos de clave
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /*.bak$
+Disallow: /*.old$
+Disallow: /*.key$
+Disallow: /*.pem$
+
+# Permitir todo lo demás
+Allow: /
+
+# Si tienes un sitemap, añádelo aquí:
+# Sitemap: https://tudominio.tld/sitemap.xml
