@@ -1,5 +1,5 @@
 ---
-title: "plan-tryhackme-free-ejpt-2025-12-12"
+title: "plan-tryhackme-free-ejpt"
 description: "Ruta completa para aprobar el eJPT basada en experiencia real: habilidades esenciales, metodología, herramientas, máquinas recomendadas y consejos prácticos."
 date: "2025-12-12"
 published: true
@@ -149,3 +149,4 @@ No hay lab dedicado en Free, pero puedes ensayar:
 - **Objetivo:** obtener **>80%** antes de presentar el examen real
 
 ---
+
