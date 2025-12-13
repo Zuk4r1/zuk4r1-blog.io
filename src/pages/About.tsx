@@ -80,11 +80,12 @@ export function About() {
 
         <div className="mt-6">
           <p className="text-cyber-text/80 leading-relaxed">
-            **CYBER-BLOG** no es solo un **blog**, es un entorno de entrenamiento continuo para pensar como atacante y defender como profesional.
+            CYBER-BLOG no es solo un blog, es un entorno de entrenamiento continuo para pensar como atacante y defender como profesional.
           </p>
         </div>
       </div>
     </motion.div>
   );
 }
+
 
