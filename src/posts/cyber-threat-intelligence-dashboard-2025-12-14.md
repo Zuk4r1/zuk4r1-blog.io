@@ -1,6 +1,6 @@
 ---
 title: "Cyber Threat Intelligence — Dashboard Start.me"
-description: "**CTI centralizado:** mapas de amenazas, reportes, ransomware, noticias y blogs técnicos, con acceso directo al panel Start.me."
+description: "CTI centralizado: mapas de amenazas, reportes, ransomware, noticias y blogs técnicos, con acceso directo al panel Start.me."
 author: "Zuk4r1"
 date: "2025-12-14"
 published: true
