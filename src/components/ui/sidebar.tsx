@@ -26,7 +26,7 @@ const navigation = [
 
 const socialLinks = [
   { name: "GitHub", icon: Github, href: "https://github.com/Zuk4r1" },
-  { name: "Email", icon: Mail, href: "investigacion1956@gmail.com" },
+  { name: "Email", icon: Mail, href: "mailto:investigacion1956@gmail.com" },
   { name: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/yordan-antonio-suarez-rojas-49706326b/" },
   { name: "Discord", icon: DiscordIcon, href: "https://discord.com/channels/zuk4r1" },
 ];
@@ -45,7 +45,7 @@ export function Sidebar() {
             className="w-28 h-28 mx-auto rounded-full border-2 border-cyber-primary mb-4 avatar-glow transition-transform duration-300 hover:scale-110"
           />
           <h1 className="text-lg font-cyber text-cyber-primary glow-text mb-2">Zuk4r1</h1>
-          <p className="text-sm text-white px-2">
+          <p className="text-sm text-white px-2 glow-text">
             Donde la curiosidad impulsa la seguridad.
           </p>
         </div>
@@ -122,7 +122,7 @@ export function SidebarOverlay({ onClose }: { onClose: () => void }) {
           <div className="p-6 text-center border-b border-cyber-border/30">
             <img src={perfil} alt="Perfil" className="w-24 h-24 mx-auto rounded-full border-2 border-cyber-primary mb-4 avatar-glow" />
             <h1 className="text-base font-cyber text-cyber-primary glow-text mb-2">Zuk4r1</h1>
-            <p className="text-xs text-white px-2">Donde la curiosidad impulsa la seguridad.</p>
+            <p className="text-xs text-white px-2 glow-text">Donde la curiosidad impulsa la seguridad.</p>
           </div>
           <nav className="p-6">
             <ul className="space-y-3">
