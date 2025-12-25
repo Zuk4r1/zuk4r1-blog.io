@@ -80,7 +80,7 @@ export function SearchBar({ placeholder = "Buscar publicaciones, etiquetas...", 
             onFocus={() => setIsFocused(true)}
             placeholder={placeholder}
             className="w-full bg-cyber-card/50 border border-cyber-border rounded-lg pl-12 pr-10 py-3
-                     text-cyber-text placeholder:text-cyber-muted focus:outline-none focus:border-cyber-primary
+                     text-base text-cyber-text placeholder:text-cyber-muted focus:outline-none focus:border-cyber-primary
                      focus:ring-1 focus:ring-cyber-primary/50 backdrop-blur-sm transition-all duration-300
                      hover:bg-cyber-card/70 group-hover:border-cyber-primary"
           />
