@@ -16,3 +16,36 @@
 .glow-border {
   box-shadow: 0 0 10px var(--glow-color, rgba(0, 255, 159, 0.4));
 }
+
+/* Markdown Styles Fixes for Mobile */
+.markdown-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+.markdown-body pre {
+  overflow-x: auto;
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.markdown-body th,
+.markdown-body td {
+  padding: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.markdown-body iframe {
+  max-width: 100%;
+}
