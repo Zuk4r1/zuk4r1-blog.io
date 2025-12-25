@@ -17,7 +17,7 @@ export function PostCard({ title, description, date, readTime, tags, href }: Pos
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
-      className="group relative rounded-lg border border-cyber-border bg-cyber-card/80 backdrop-blur-sm p-6 
+      className="group relative rounded-lg border border-cyber-border bg-cyber-card/80 backdrop-blur-sm p-4 md:p-6 
                  hover:border-cyber-primary transition-all duration-300"
     >
       <Link to={href} className="block">
