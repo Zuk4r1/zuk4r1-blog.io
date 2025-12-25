@@ -53,11 +53,11 @@ export function Post() {
     >
       {/* Post Header */}
       <header className="mb-8">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-cyber-primary mb-6">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-cyber-primary mb-6 break-words">
           {post.title}
         </h1>
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3 text-cyber-text/80">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="flex items-center gap-3 text-cyber-text/80 text-sm sm:text-base">
             <Calendar className="h-4 w-4 text-cyber-primary" />
             <time>
               {parseDateLocal(post.date).toLocaleDateString('es-ES', {
